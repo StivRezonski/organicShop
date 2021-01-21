@@ -1,0 +1,92 @@
+[debug] [2021-01-21T22:17:22.559Z] ----------------------------------------------------------------------
+[debug] [2021-01-21T22:17:22.561Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\alexk\WebstormProjects\oshop\node_modules\firebase-tools\lib\bin\firebase.js --debug emulators:start
+[debug] [2021-01-21T22:17:22.561Z] CLI Version:   9.2.1
+[debug] [2021-01-21T22:17:22.561Z] Platform:      win32
+[debug] [2021-01-21T22:17:22.561Z] Node Version:  v12.18.4
+[debug] [2021-01-21T22:17:22.562Z] Time:          Thu Jan 21 2021 23:17:22 GMT+0100 (Central European Standard Time)
+[debug] [2021-01-21T22:17:22.563Z] ----------------------------------------------------------------------
+[debug] [2021-01-21T22:17:22.563Z] 
+[debug] [2021-01-21T22:17:22.570Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-21T22:17:22.572Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[warn] !  hub: emulator hub unable to start on port 4400, starting on 4401 instead. {"metadata":{"emulator":{"name":"hub"},"message":"emulator hub unable to start on port 4400, starting on 4401 instead."}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project oshop-b2d2d. This may result in unexpected behavior. 
+[debug] [2021-01-21T22:17:22.613Z] [hub] writing locator at C:\Users\alexk\AppData\Local\Temp\hub-oshop-b2d2d.json
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[warn] !  hosting: Port 5000 is not open on localhost, could not start Hosting Emulator. {"metadata":{"emulator":{"name":"hosting"},"message":"Port 5000 is not open on localhost, could not start Hosting Emulator."}}
+[warn] !  hosting: To select a different host/port, specify that host/port in a firebase.json config file:
+      {
+        // ...
+        "emulators": {
+          "hosting": {
+            "host": "HOST",
+            "port": "PORT"
+          }
+        }
+      } {"metadata":{"emulator":{"name":"hosting"},"message":"To select a different host/port, specify that host/port in a firebase.json config file:\n      {\n        // ...\n        \"emulators\": {\n          \"hosting\": {\n            \"host\": \"\u001b[33mHOST\u001b[39m\",\n            \"port\": \"\u001b[33mPORT\u001b[39m\"\n          }\n        }\n      }"}}
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[error] 
+[error] Error: Could not start Hosting Emulator, port taken.
+[debug] [2021-01-21T22:17:57.177Z] ----------------------------------------------------------------------
+[debug] [2021-01-21T22:17:57.179Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\alexk\WebstormProjects\oshop\node_modules\firebase-tools\lib\bin\firebase.js --debug emulators:start
+[debug] [2021-01-21T22:17:57.179Z] CLI Version:   9.2.1
+[debug] [2021-01-21T22:17:57.179Z] Platform:      win32
+[debug] [2021-01-21T22:17:57.179Z] Node Version:  v12.18.4
+[debug] [2021-01-21T22:17:57.180Z] Time:          Thu Jan 21 2021 23:17:57 GMT+0100 (Central European Standard Time)
+[debug] [2021-01-21T22:17:57.180Z] ----------------------------------------------------------------------
+[debug] [2021-01-21T22:17:57.180Z] 
+[debug] [2021-01-21T22:17:57.187Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-21T22:17:57.189Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[warn] !  hub: emulator hub unable to start on port 4400, starting on 4401 instead. {"metadata":{"emulator":{"name":"hub"},"message":"emulator hub unable to start on port 4400, starting on 4401 instead."}}
+[debug] [2021-01-21T22:17:57.229Z] [hub] writing locator at C:\Users\alexk\AppData\Local\Temp\hub-oshop-b2d2d.json
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[warn] !  hosting: Port 5000 is not open on localhost, could not start Hosting Emulator. {"metadata":{"emulator":{"name":"hosting"},"message":"Port 5000 is not open on localhost, could not start Hosting Emulator."}}
+[warn] !  hosting: To select a different host/port, specify that host/port in a firebase.json config file:
+      {
+        // ...
+        "emulators": {
+          "hosting": {
+            "host": "HOST",
+            "port": "PORT"
+          }
+        }
+      } {"metadata":{"emulator":{"name":"hosting"},"message":"To select a different host/port, specify that host/port in a firebase.json config file:\n      {\n        // ...\n        \"emulators\": {\n          \"hosting\": {\n            \"host\": \"\u001b[33mHOST\u001b[39m\",\n            \"port\": \"\u001b[33mPORT\u001b[39m\"\n          }\n        }\n      }"}}
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[error] 
+[error] Error: Could not start Hosting Emulator, port taken.
+[debug] [2021-01-21T22:18:06.591Z] ----------------------------------------------------------------------
+[debug] [2021-01-21T22:18:06.593Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\alexk\WebstormProjects\oshop\node_modules\firebase-tools\lib\bin\firebase.js --debug emulators:start
+[debug] [2021-01-21T22:18:06.593Z] CLI Version:   9.2.1
+[debug] [2021-01-21T22:18:06.593Z] Platform:      win32
+[debug] [2021-01-21T22:18:06.593Z] Node Version:  v12.18.4
+[debug] [2021-01-21T22:18:06.594Z] Time:          Thu Jan 21 2021 23:18:06 GMT+0100 (Central European Standard Time)
+[debug] [2021-01-21T22:18:06.595Z] ----------------------------------------------------------------------
+[debug] [2021-01-21T22:18:06.595Z] 
+[debug] [2021-01-21T22:18:06.602Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-21T22:18:06.603Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2021-01-21T22:18:08.646Z] [hub] writing locator at C:\Users\alexk\AppData\Local\Temp\hub-oshop-b2d2d.json
+[debug] [2021-01-21T22:18:10.693Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/oshop-b2d2d/webApps/-/config [none]
+[debug] [2021-01-21T22:18:11.462Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/oshop-b2d2d/webApps/-/config 200
+[debug] [2021-01-21T22:18:11.463Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/oshop-b2d2d/webApps/-/config {"projectId":"oshop-b2d2d","appId":"1:8273218313:web:38e627cebe1201c11f21d8","storageBucket":"oshop-b2d2d.appspot.com","apiKey":"AIzaSyD56qe_64iszN87YHSP5xoyze_Fl8rdPmU","authDomain":"oshop-b2d2d.firebaseapp.com","messagingSenderId":"8273218313","measurementId":"G-9TTYQW7ZRP"}
+[info] i  hosting: Serving hosting files from: dist/oshop {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mdist/oshop\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the ---project flag. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the ---project flag."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: None
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
