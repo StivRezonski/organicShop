@@ -21,6 +21,10 @@ import { AuthService } from './auth.service';
 import { AuthGuardService } from './auth-guard.service';
 import { UserService } from './user.service';
 import { ProductFormComponent } from './admin/product-form/product-form.component';
+import { CategoryService } from './category.service';
+import { FormsModule } from '@angular/forms';
+import { ProductService } from './product.service';
+import { CustomFormsModule } from 'ng2-validation';
 
 @NgModule({
   declarations: [
@@ -35,7 +39,7 @@ import { ProductFormComponent } from './admin/product-form/product-form.componen
     AdminProductsComponent,
     AdminOrdersComponent,
     LoginComponent,
-    ProductFormComponent
+    ProductFormComponent,
   ],
   imports: [
     BrowserModule,
@@ -43,6 +47,8 @@ import { ProductFormComponent } from './admin/product-form/product-form.componen
     AngularFireDatabaseModule,
     AngularFireAuthModule,
     NgbModule,
+    FormsModule,
+    CustomFormsModule,
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
       {path: 'products', component: ShoppingCartComponent},
@@ -53,13 +59,14 @@ import { ProductFormComponent } from './admin/product-form/product-form.componen
       {path: 'order-success', component: OrderSuccessComponent, canActivate: [AuthGuardService]},
       {path: 'my-orders', component: MyOrdersComponent, canActivate: [AuthGuardService]},
 
-      {path: 'admin/products', component: AdminProductsComponent, canActivate: [AuthGuardService]},
       {path: 'admin/products/new', component: ProductFormComponent, canActivate: [AuthGuardService]},
+      {path: 'admin/products/:id', component: AdminProductsComponent, canActivate: [AuthGuardService]},
+      {path: 'admin/products', component: AdminProductsComponent, canActivate: [AuthGuardService]},
       {path: 'admin/orders', component: AdminOrdersComponent, canActivate: [AuthGuardService]},
     ]),
     NgbModule
   ],
-  providers: [AuthService, AuthGuardService, UserService],
+  providers: [AuthService, AuthGuardService, UserService, CategoryService, ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
